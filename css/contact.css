@@ -1,0 +1,60 @@
+
+form header{
+    position: static;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 60px;
+}
+
+form{
+    background:linear-gradient(45deg,rgba(0, 0, 255,.5),rgba(255, 165, 0,.5));
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.input-block{
+    float: left;
+}
+
+.input-block label{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.input,textarea{
+    border: 0;
+    border-bottom: solid rgb(0, 0, 255) 1px;
+    background: none;
+    margin-bottom: 30px;
+    transition: border-color ease-in-out .7s;
+
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+}
+
+.input:hover,textarea:hover{
+    border-color:orange;
+}
+
+.envoyer{
+    border-radius: 5px;
+    height: 30px;
+    background: none;
+    border: solid 1px;
+    transition: color ease-in-out 1s;
+}
+
+.envoyer:hover{
+    color: white;
+}
+.clear{
+    clear: left;
+}

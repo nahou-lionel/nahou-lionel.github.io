@@ -1,0 +1,41 @@
+body
+{
+    background:url(../img/bg1.jpg) ;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.main span{
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+
+table{
+    user-select: none;
+}
+
+.main img{
+    
+    margin-bottom: 10px;
+    transition: box-shadow ease-in-out 1.5s;
+}
+
+.main span p{
+    text-decoration: none;
+    color: rgb(0, 130, 223);
+    border-bottom: none;
+    transition: all ease-in-out 1s;
+    font-size: 18px;
+}
+
+.main span:hover > a{
+    box-shadow: 1px 1px 1px aqua;
+}
+
+.main span:hover > p{
+    font-size: 20px;
+}

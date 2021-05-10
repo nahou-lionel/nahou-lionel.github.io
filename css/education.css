@@ -1,0 +1,45 @@
+.title{
+    color: orange;
+    font-size: 35px;
+}
+
+p{
+    margin: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+h4{
+    margin-left: 30px;
+}
+
+.es{
+    border-radius: 200%;
+}
+
+.main h1{
+    text-align: center;
+    color: orange;
+}
+
+.main li{
+    list-style: circle;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.info{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    transition: color ease-in-out .7s;
+}
+
+.info:hover{
+    color: blue;
+}
+
+#pédagogie-salésienne{
+    position: absolute;
+    top: 0;
+}
