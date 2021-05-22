@@ -1,0 +1,253 @@
+.welcome{
+    margin-top:100px;
+    width: 100%;
+    display: flex;
+}
+
+.heading{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.welcome .content{
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+}
+
+.welcome .imgbx{
+    background: url(../img/Don-Bosco-une-vie-au-service-des-jeunes.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.discover{
+    display: flex;
+    background: wheat;
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.discover .quick-access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.discover .quick-access div{
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    transition: box-shadow,border  ease-in-out 1s;
+    border-top: solid rgb(0, 0, 255,.5) 15px;
+    border-bottom: solid rgb(0, 0, 255,.5) 15px;
+}
+
+.discover .quick-access div:hover{
+    box-shadow: 6px 6px 5px rgba(73, 69, 69, 0.3);
+    border-top: solid orange 15px;
+    border-bottom: solid orange 15px;
+}
+
+.textcontact{
+    background: #eeb90baf;
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+}
+
+.imgbx2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.imgbx2 img{
+    width: 100%;
+}
+
+.redbg{
+    background: url(../img/red.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    padding: 100px;
+}
+
+.form .inputbox{
+    margin-bottom: 40px;
+}
+
+.form .inputbox input,.form .inputbox textarea{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.form .inputbox textarea{
+    min-height: 150px;
+}
+
+.form .inputbox input::placeholder,.form .inputbox textarea::placeholder{
+    color: #fff;
+}
+
+.form .inputbox input[type="submit"]{
+    width: 150px;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/*.main{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome{
+    width: 100%;
+    height: 500px;
+    background: url(../img/Don-Bosco-une-vie-au-service-des-jeunes.jpg) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome p{
+    display: block;
+    text-align: center;
+    line-height: 500px;
+    font-size: 70px;
+    color: rgba(243, 229, 229,2);
+    transition: all ease-in-out .7s;
+}
+
+.welcome p:hover{
+    color: rgb(95, 209, 194);
+    text-shadow: 5px 5px 5px black;
+}
+
+.acces-rapide{
+    width: 100%;
+    height: 840px;
+    margin-top: 2px;
+    background-color: rgba(128, 128, 128,.5);
+}
+
+
+.rubrique{
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    width: 450px;
+    height: 350px;
+    border-radius: 25px;
+    transition: box-shadow,border  ease-in-out 1s;
+    border-top: solid rgb(0, 0, 255,.5) 15px;
+    border-bottom: solid rgb(0, 0, 255,.5) 15px;
+}
+
+.end{
+    margin-left:520px;
+}
+
+.rubrique .title{
+    margin: 10px 0 0 20px;
+    color: black;
+}
+
+.rubrique:hover{
+    box-shadow: 6px 6px 5px rgba(73, 69, 69, 0.3);
+    border-top: solid orange 15px;
+    border-bottom: solid orange 15px;
+}
+
+.contact{
+    margin-top: 2px;
+}
+
+
+
+form{
+    background: rgba(255, 196, 0, 0.685);
+    height: 400px;
+    padding: 30px 200px 100px 200px;
+}
+
+.message{
+    display: block;
+    right: 200;
+    width: 500px;
+    height: 175px;
+    position: absolute;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.input-block{
+    display: block;
+    width: 450px;
+    height: 45px;
+    margin-bottom: 0;
+    border-radius: 15px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.envoyer{
+    margin-right: 100px;
+    background: none;
+    border: solid 1px;
+    border-radius: 25px;
+    text-align: center;
+    transition: color .7s ease-in-out;
+}
+
+.envoyer:hover{
+    color: white;
+}
+
+#check:checked ~ .main .rubrique{
+    width: 300px;
+    height: 200px;
+}
+
+#check:checked ~ .main .end{
+    margin-left: 350px;
+}
+
+#check:checked ~ .main .acces-rapide{
+    width: auto;
+    padding-left: 100px;
+}
+
+#check:checked ~ .main .contact .input-block,#check:checked ~ .main .contact .message{
+    width: 350px;
+}*/
