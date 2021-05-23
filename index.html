@@ -9,22 +9,27 @@
         <!--sidebar-->
         <input type="checkbox" id="check">
         <div class="sidebar">
-            <img src="img/cancel.webp" alt="" id="cancel" width="25" height="25">
-            <div class="header">Menu</div>
-            <center>
-                <a href="#">ACCUEIL</a>  <br>
-                <a href="presentation.html">PRESENTATION</a> <br>
-                <a href="education.html">EDUCATION</a> <br>
-                <a href="faq.html">FAQ</a> <br>
-                <a href="site.html">SITES</a> <br>
-                <a href="contact.html">CONCTACT</a> <br>
-            </center> 
+            <div class="header">
+                <h1 class="heading">Menu</h1>
+                <label for="check">
+                    <div id="cancel"></div>
+                </label>
+            </div>
+            <div class="content">
+                <ul>
+                    <li data-text="ACCUEIL"><a href="#">ACCUEIL</a></li>
+                    <li data-text="PRESENTATION"><a href="presentation.html">PRESENTATION</a></li>
+                    <li data-text="EDUCATION"><a href="education.html">EDUCATION</a></li>
+                    <li data-text="FAQ"><a href="faq.html">FAQ</a></li>
+                    <li data-text="SITES"><a href="site.html">SITES</a></li>
+                    <li data-text="CONCTACT"><a href="contact.html">CONCTACT</a></li>
+                </ul>
+            </div> 
         </div>
         <header>
             
             <label for="check">
-                <img src="img/open.png" alt="" id="btn" width="25" height="25">
-                
+                <div id="btn"></div>
             </label>
            <a href=""><img src="img/logo bosco.png" width= "314" height= "63.5" id="logo"></a>
            <nav>
@@ -49,55 +54,58 @@
            
         </header>
 
-        <section class="welcome">
-            <div class="imgbx"></div>
-            <div class="content">
-                <h2 class="heading">Don Bosco une vie au service des jeunes</h2>
-                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima soluta corrupti quaerat amet eius reiciendis maxime quae quasi vero animi provident, iure assumenda sit laboriosam. Voluptas mollitia cum odit.</p>
-            </div>
-        </section>
-
-        <section class="discover">
-            <div class="content">
-                <h2 class="heading">Don Bosco une vie au service des jeunes</h2>
-                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima soluta corrupti quaerat amet eius reiciendis maxime quae quasi vero animi provident, iure assumenda sit laboriosam. Voluptas mollitia cum odit.</p>
-                <div class="quick-access">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+        <div class="container">
+            <section class="welcome">
+                <div class="imgbx"></div>
+                <div class="content">
+                    <h2 class="heading">Don Bosco une vie au service des jeunes</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima soluta corrupti quaerat amet eius reiciendis maxime quae quasi vero animi provident, iure assumenda sit laboriosam. Voluptas mollitia cum odit.</p>
                 </div>
-            </div>
-        </section>
-
-        <section class="textcontact">
-            <h2 class="heading">Don Bosco une vie au service des jeunes</h2>
-            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima soluta corrupti quaerat amet eius reiciendis maxime quae quasi vero animi provident, iure assumenda sit laboriosam. Voluptas mollitia cum odit.</p>
-            </div>
-        </section>
-
-        <section class="contact">
-            <div class="redbg">
-                <div class="form">
-                    <div class="inputbox">
-                        <input type="text" placeholder="Full Name">
-                    </div>
-                    <div class="inputbox">
-                        <input type="text" placeholder="Emal Adress">
-                    </div>
-                    <div class="inputbox">
-                        <input type="text" placeholder="Mobile No.">
-                    </div>
-                    <div class="inputbox">
-                        <textarea placeholder="Write your message"></textarea>
-                    </div>
-                    <div class="inputbox">
-                        <input type="submit" value="Send">
+            </section>
+    
+            <section class="discover">
+                <div class="content">
+                    <h2 class="heading">Découvrez en plus sur la vie de Don Bosco</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima soluta corrupti quaerat amet eius reiciendis maxime quae quasi vero animi provident, iure assumenda sit laboriosam. Voluptas mollitia cum odit.</p>
+                    <div class="quick-access">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
                     </div>
                 </div>
-            </div>
-            <div class="imgbx2"><img src="img/bg-contact.jpg" alt=""></div>
-        </section>
+            </section>
+    
+            <section class="textcontact">
+                <h2 class="heading">Contactez nous !</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minima soluta corrupti quaerat amet eius reiciendis maxime quae quasi vero animi provident, iure assumenda sit laboriosam. Voluptas mollitia cum odit.</p>
+                </div>
+            </section>
+    
+            <section class="contact">
+                <div class="redbg">
+                    <div class="form">
+                        <div class="inputbox">
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" placeholder="Emal Adress">
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" placeholder="Mobile No.">
+                        </div>
+                        <div class="inputbox">
+                            <textarea placeholder="Write your message"></textarea>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+                <div class="imgbx2"><img src="img/bg-contact.jpg" alt=""></div>
+            </section>
+        </div>
+        
     </body>
 </html>
