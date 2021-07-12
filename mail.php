@@ -7,7 +7,7 @@
 
 <body>
     <?php
-    $retour = mail('jules@free.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From : webmaster@monsite.fr');
+    $retour = mail('nahoulionel@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From : webmaster@monsite.fr');
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
     }
